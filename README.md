@@ -53,7 +53,7 @@ Agent conversationnel :
 - Modèle mental
 
 Amélioration apportée :
-- Ajout des émotions (s'énerve, calme)
+- Ajout des émotions (menacant, calme)
 - S'énerve si la conversation parle de sujet sensible.
 - S'énerve si la personne est trop intrusive (pose trop de question) 
 # Librairies 
