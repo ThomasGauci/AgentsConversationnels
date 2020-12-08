@@ -58,3 +58,5 @@ Amélioration apportée :
 - S'énerve si la personne est trop intrusive (pose trop de question) 
 # Librairies 
  - https://pypi.org/project/termcolor/
+ - https://pypi.org/project/geotext/
+ - https://pypi.org/project/DateTime/
