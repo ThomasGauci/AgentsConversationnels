@@ -2,7 +2,6 @@
 from geotext import GeoText
 import datetime
 
-
 def init():
     return [False,False,False,False,False,False,False]
 res = init()
@@ -51,8 +50,6 @@ while reservation == False:
             if(reponse.lower() == "oui" or reponse.lower() == "non"):
                 if(reponse.lower() == "oui"):
                     reservation = True
-                else:
-                    init()
                 res[4] = True
     else:
         while res[5] == False:
