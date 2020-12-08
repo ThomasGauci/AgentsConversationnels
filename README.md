@@ -56,6 +56,18 @@ Amélioration apportée :
 - Ajout des émotions (menacant, calme)
 - S'énerve si la conversation parle de sujet sensible.
 - S'énerve si la personne est trop intrusive (pose trop de question) 
+
+# billets.py
+Agent conversationnel :
+- Questions prédéfinis
+- Règle des slots
+- Affiche un résultat à l'utisateur
+
+Amélioration apportée :
+- Structure de contrôle de la ville
+- Structure de contrôle des dates
+- Structure de contrôle des cohérences des réponses de l'utilisateur
+
 # Librairies 
  - https://pypi.org/project/termcolor/
  - https://pypi.org/project/geotext/
