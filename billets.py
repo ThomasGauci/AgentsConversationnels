@@ -63,8 +63,6 @@ while reservation == False:
             except ValueError :
                 dateValide = False
             # Vérification de l'écriture d'une date valide
-            print(retour)
-            print(depart)
             if(dateValide):
                 # Vérification que la date n'est pas déjà passé et que la date n'est pas avant la date de départ
                 if(retour>=today and retour>=depart):

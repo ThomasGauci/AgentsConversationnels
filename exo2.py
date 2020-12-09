@@ -40,17 +40,17 @@ i = 0
 # Le robot fait maximum 10 actions ou alors s'éteins si les salles sont propres
 while((i < 10) & stop):
     # Si l"action est d'aspirer et que la salle était sale
-    if(res == "aspirer" & tab[j][1] == "sale"):
+    if(res == "aspirer" and tab[j][1] == "sale"):
         # On aspire donc la salle devient propre
         tab[j][1] = "propre"
     # Si l"action est d'aller à droite et que la salle était propre
-    if(res == "droite" & tab[j][1] == "propre"):    
+    if(res == "droite" and tab[j][1] == "propre"):    
         # On se déplace dans l'autre salle  
         j = 1
         # On se déplace dans l'autre salle car la salle actuelle est propre donc on incrémente le compteur
         compteurPropre += 1
     # Si l"action est d'aller à gauche et que la salle était propre
-    if (res == "gauche" & tab[j][1] == "propre"):
+    if (res == "gauche" and tab[j][1] == "propre"):
         # On se déplace dans l'autre salle 
         j = 0 
         # On se déplace dans l'autre salle car la salle actuelle est propre donc on incrémente le compteur
