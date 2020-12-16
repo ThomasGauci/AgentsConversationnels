@@ -40,6 +40,10 @@ tab[5][0] = "F"
 tab[6][0] = "G" 
 tab[7][0] = "H" 
 tab[8][0] = "I" 
+def search(salle):
+    for x in range(len(tab)):
+        if(tab[x][0] == salle):
+            return x
 # Initialisation de l'état des salles A et B 
 for i in range(9):
     tab[i][1] = initialisationeSalleEtat()
@@ -75,7 +79,7 @@ while((i < 10) & stop):
         if(tab[j][1] == "propre"):
             # On se déplace dans l'autre salle  
             emplacement = chemin[t][j]
-            j += 1
+            j = search(emplacement)
             # On se déplace dans l'autre salle car la salle actuelle est propre donc on incrémente le compteur
             compteurPropre += 1
     # Si l"action est d'aller à gauche et que la salle était propre
@@ -83,10 +87,12 @@ while((i < 10) & stop):
         if(tab[j][1] == "propre"):
             # On se déplace dans l'autre salle 
             emplacement = chemin[t][j]
-            j += 1 
+            j = search(emplacement) 
             # On se déplace dans l'autre salle car la salle actuelle est propre donc on incrémente le compteur
             compteurPropre += 1
     res = action(emplacement,tab[j][1],but)
+    print("Emplacement salle " + emplacement)
+    print("Action aspirateur : " + res)
     if(res == "stop"):
         stop = False
         res = "mise en arrêt"
@@ -94,8 +100,9 @@ while((i < 10) & stop):
         # Si le compteur de propreté est plus grand que 3 alors on éteint le robot
         stop = False
         res = "mise en arrêt"
-    print("Emplacement salle " + emplacement)
-    print("Action aspirateur : " + res)
+    if(res == "stop" or compteurPropre >= 8):
+        print("Emplacement salle " + emplacement)
+        print("Action aspirateur : " + res)
     i += 1
 
 
