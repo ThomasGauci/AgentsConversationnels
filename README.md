@@ -16,7 +16,9 @@ Amélioration apportée :
 - mise en arrêt du robot après 3 passage dans une salle propre
 
 Terminal : 
-![exo1](img/exo1) 
+
+![exo1](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/exo1.png) 
+
 # exo2.py
 Agent réflexe avec état interne :
 - Aspirateur
@@ -27,7 +29,8 @@ Amélioration apportée :
 - mise en arrêt du robot après 3 passage dans une salle propre
 
 Terminal : 
-![exo2](img/exO2) 
+
+![exo2](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/exo2.png) 
 # exo3.py
 Agent réflexe avec état interne et un but :
 - Aspirateur
@@ -36,8 +39,10 @@ Agent réflexe avec état interne et un but :
 
 Amélioration apportée :
 - mise en arrêt du robot après 10 passages dans une salle propre ou toutes les salles sont propres
+
 Terminal : 
-![exo3](img/exo3) 
+
+![exo3](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/exo3.png)
 # exo4.py
 Agent réflexe avec fonction d'utilité :
 - Aspirateur
@@ -49,7 +54,8 @@ Amélioration apportée :
 - l'aspirateur va essayer de prendre le chemin le plus sale entre les deux trajets
 
 Terminal : 
-![exo4](img/exo4) 
+
+![exo4](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/exo4.png)
 # eliza.py
 Agent conversationnel :
 - Règles patron-action
@@ -59,7 +65,8 @@ Amélioration apportée :
 - Ajout du sentiment d'amour
 
 Terminal : 
-![eliza](img/eliza) 
+
+![eliza](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/eliza.png)
 # parry.py
 Agent conversationnel :
 - Règles patron-action
@@ -72,7 +79,8 @@ Amélioration apportée :
 - S'énerve si la personne est trop intrusive (pose trop de question) 
 
 Terminal : 
-![parry](img/parry) 
+
+![parry](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/parry.png)
 # billets.py
 Agent conversationnel :
 - Questions prédéfinis
@@ -85,7 +93,8 @@ Amélioration apportée :
 - Structure de contrôle des cohérences des réponses de l'utilisateur
 
 Terminal : 
-![billets](img/billets) 
+
+![billets](https://github.com/ThomasGauci/AgentsConversationnels/blob/main/img/billets.png)
 # Librairies 
  - https://pypi.org/project/termcolor/
  - https://pypi.org/project/geotext/
